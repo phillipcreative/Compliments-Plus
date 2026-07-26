@@ -1,0 +1,527 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+  
+    Thank you for your purchase!
+  
+</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/assets/notifications/styles.css">
+    <style>
+      .button__cell {
+        background: ;
+      }
+      a,
+      a:hover,
+      a:active,
+      a:visited {
+        color: ;
+      }
+      .title-order {
+        text-align: center;
+        font-size: 30px;
+        color: #AF59D7;
+        line-height: 27px;
+        font-weight: 800;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+      }
+      .row-12 img {
+        max-width: 200rem;
+        display: block;
+        margin: 0 auto 44px;
+      }
+      .row-12 .text_cstm p {
+        max-width: 200rem;
+        margin-bottom: 1rem;
+        text-align: center;
+      }
+      #main-content {
+        text-align: center;
+        color: #141414;
+      }
+      . {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .text_cstm5 {
+
+
+        /*
+
+   font-size: clamp(1rem, 3vw, 24px);
+   line-height: clamp(1.1rem, 3vw, 29px);
+*/
+        font-size: 1.5rem;
+        line-height: 1.813rem;
+        margin: 1.5rem auto;
+        max-width: 40rem;
+      }
+      .text_cstm6 {
+
+
+        /*
+
+   font-size: clamp(1.3rem, 4vw, 30px);
+   line-height: clamp(1rem, 3vw, 22px);
+*/
+        font-size: 1.875rem;
+        line-height: 1.375rem;
+        color: #af59d7;
+        margin: 1rem auto 3rem;
+        letter-spacing: -1.80px;
+        font-weight: 600;
+      }
+      h1 {
+        margin: 0 auto 3rem;
+
+
+        /*
+
+   font-size: clamp(17px, 3vw, 25px) !important;
+   line-height: clamp(1rem, 3vw, 30px);
+*/
+        font-size: 1.563rem !important;
+        line-height: 1.875rem;
+        color: #000000;
+        font-weight: 700;
+        letter-spacing: -1px;
+      }
+      button.btn,
+      a.btn {
+        color: #fff;
+
+
+        /*
+
+   font-size: clamp(10px, 2vw, 22px);
+   line-height: clamp(10px, 2vw, 23px);
+*/
+        font-size: 1.375rem;
+        line-height: 1.438rem;
+        border-radius: 1rem;
+        letter-spacing: -0.8px;
+        font-weight: 500;
+      }
+      .addMessage {
+        max-width: 30px !important;
+        display: block;
+        margin: 0 !important;
+        padding-right: 22px;
+      }
+      .text_cstm2 p {
+
+
+        /*
+
+   font-size: clamp(1rem, 2vw, 16px);
+   line-height: clamp(1rem, 2vw, 22px);
+*/
+        font-size: 1rem;
+        line-height: 1.375rem;
+        letter-spacing: -0.4px;
+        color: #030303;
+        font-weight: 500;
+      }
+      .text_cstm4 {
+
+
+        /*
+
+   font-size: clamp(1rem, 2vw, 19px);
+   line-height: clamp(1rem, 2vw, 25px);
+*/
+        font-size: 1.188rem;
+        line-height: 1.563rem;
+        letter-spacing: -0.7px;
+        color: #030303;
+        font-weight: 700;
+        text-align: center;
+        margin: 1rem auto;
+        max-width: 30rem;
+      }
+      .btn-grp {
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+        gap: 4% !important;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+      }
+      .btn-pink {
+        display: flex;
+        padding: 1.5rem 3rem;
+        background-color: #af59d7;
+        margin: auto;
+      }
+      .btn-primary {
+        width: 43%;
+        justify-content: center;
+        background-color: #1e3d5a !important;
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
+      }
+      .btn-content {
+        display: flex;
+        margin: auto;
+      }
+      .cstm_para {
+        font-size: 13.5px;
+        line-height: 1.2;
+        font-weight: 600;
+        color: #000;
+        margin-bottom: 2rem;
+      }
+      .cstm_box {
+        border: 4px solid #d8d8d8;
+        padding: 2rem;
+        text-align: center;
+        font-size: 1.438rem;
+        line-height: 1.688rem;
+        font-weight: 500;
+        color: #141414;
+        letter-spacing: -0.59px;
+      }
+
+      .circle {
+        width: 56px;
+        height: 56px;
+        background-color: #af59d7;
+        color: white;
+        border-radius: 50%;
+        font-size: 2rem;
+        font-weight: 800;
+      }
+
+      .circle-container1 {
+        margin: 2rem auto 1rem;
+      }
+
+      .circle-container2 {
+        margin: 3rem auto 1rem;
+      }
+
+      .box-heading {
+        color: #af59d7;
+        font-weight: 700;
+      }
+
+      .text_cstm7 {
+
+
+        /*
+
+   font-size: clamp(0.8rem, 2vw, 17px);
+   line-height: clamp(1.2rem, 2vw, 28px);
+*/
+        font-size: 1.063rem;
+        line-height: 1.75rem;
+        font-weight: 500;
+        font-style: italic;
+        letter-spacing: -0.44px;
+        color: #141414;
+        text-align: center;
+        margin-bottom: 3rem;
+        max-width: 33rem;
+      }
+      @media (max-width: 662px) {
+        .btn-primary {
+          width: 95%;
+        }
+
+        .btn-grp {
+          flex-wrap: wrap;
+          gap: 1rem;
+        }
+        .anyflexbox .content .wrap .step__sections .thank-you__additional-content .content-area .row-12 img {
+          max-width: 14rem;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <table class="body" style="width: clamp(200px, 100%, 800px);margin: auto;background: #fff;">
+      <tr>
+        <td>
+          <table class="header row">
+            <tr>
+              <td class="header__cell">
+                <table class="container">
+                  <tr>
+                    <td>
+                      <table class="row">
+                        <tr>
+                          <td class="shop-name__cell">
+                            <a href=""><img
+                                src="https://cdn.shopify.com/s/files/1/0508/9994/3601/files/LOGO_GHOST_GIVER.png?v=1717136249"
+                                alt=""
+                                width="300"></a>
+                          </td>
+                          <td>
+                            <tr>
+                              <td class="order-number__cell">
+                                <span class="order-number__text">
+                                  Order 
+                                </span>
+                              </td>
+                            </tr>
+                          </td>
+                        </tr>
+                      </table>
+
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+
+          <table class="row content">
+            <tr>
+              <td class="content__cell">
+                <table class="container">
+                  <tr>
+                    <td>
+                      <h2 style="text-align: center; margin-bottom: 1rem;">
+  
+    Thank you for your purchase!
+  
+</h2>
+                      <div id="main-content">
+                        
+                          
+                          <div class="physical-card-case">
+                            <div class="heading-area">
+                              <h2 class="title-order">
+                                What's Next?
+                              </h2>
+                            </div>
+                            <div class="content-area">
+                              <div class="row-12">
+                                <div class="text_cstm">
+                                  <p>When you receive your Ghost Giver card, please follow the directions on the back of the card to setup a greeting for the recipient of your gift.</p>
+                                </div>
+                                <div class="text_cstm">
+                                  <p>Once finished, detach the bottom portion of the card, insert it into the provided envelope and attach to your gift.</p>
+                                </div>
+                                <img src="https://cdn.shopify.com/s/files/1/0508/9994/3601/files/Mask_Group_70.png?v=1718948420" alt="">
+                                <div class="text_cstm">
+                                  
+                                  <p>Your recipient will use the code printed on their half of the card to access your anonymous message and, if they'd like, send you a thank you.</p>
+                                </div>
+                                <div class="content-area">
+                                <div class="row-12">
+                                  <div class="text_cstm4">
+                                    For a quick refresher on how to use Ghost Giver cards & envelopes, please refer to our HOW IT WORKS page below
+                                  </div>
+                                  <div class="btn-grp">
+                                    <a
+                                      class="btn btn-pink"
+                                      href="https://ghostgiver.com/pages/how-it-work-physical-cards-and-envelopes"
+                                      style="margin: auto; text-decoration: none;"
+                                    >HOW IT WORKS</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                              </div>
+                            </div>
+                          </div>
+                        
+                      </div>
+                      
+                      
+
+                      
+                        
+
+                      
+
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+
+          <table class="row section">
+            <tr>
+              <td class="section__cell">
+                <table class="container">
+                  <tr>
+                    <td>
+                      <h3>Order summary</h3>
+                    </td>
+                  </tr>
+                </table>
+                <table class="container">
+                  <tr>
+                    <td>
+
+
+                      <table class="row">
+                        
+                      </table>
+
+                      <table class="row subtotal-lines">
+                        <tr>
+                          <td class="subtotal-spacer"></td>
+                          <td>
+                            <table class="row subtotal-table">
+                              
+
+
+                              <tr class="subtotal-line">
+                                <td class="subtotal-line__title">
+                                  <p>
+                                    <span>Subtotal</span>
+                                  </p>
+                                </td>
+                                <td class="subtotal-line__value">
+                                  <strong></strong>
+                                </td>
+                              </tr>
+
+                              
+
+                                <tr class="subtotal-line">
+                                  <td class="subtotal-line__title">
+                                    <p>
+                                      <span>Shipping</span>
+                                    </p>
+                                  </td>
+                                  <td class="subtotal-line__value">
+                                    <strong></strong>
+                                  </td>
+                                </tr>
+
+                              
+
+                              
+
+
+                              <tr class="subtotal-line">
+                                <td class="subtotal-line__title">
+                                  <p>
+                                    <span>Taxes</span>
+                                  </p>
+                                </td>
+                                <td class="subtotal-line__value">
+                                  <strong></strong>
+                                </td>
+                              </tr>
+
+
+                              
+                            </table>
+                            
+                            
+                            
+                            <table class="row subtotal-table subtotal-table--total">
+                              
+
+                                <tr class="subtotal-line">
+                                  <td class="subtotal-line__title">
+                                    <p>
+                                      <span>Total</span>
+                                    </p>
+                                  </td>
+                                  <td class="subtotal-line__value">
+                                    <strong></strong>
+                                  </td>
+                                </tr>
+
+                              
+                            </table>
+
+                            
+
+                            
+                              
+
+
+                            
+                          </td>
+                        </tr>
+                      </table>
+
+
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+
+          <table class="row section">
+            <tr>
+              <td class="section__cell">
+                <table class="container">
+                  <tr>
+                    <td>
+                      <h3>Customer information</h3>
+                    </td>
+                  </tr>
+                </table>
+                <table class="container">
+                  <tr>
+                    <td>
+
+                      <table class="row">
+                        <tr>
+                          
+                          
+                        </tr>
+                      </table>
+                      <table class="row">
+                        <tr>
+                          
+                          
+                        </tr>
+                        <tr>
+                          
+                        </tr>
+                      </table>
+
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+
+          <table class="row footer">
+            <tr>
+              <td class="footer__cell">
+                <table class="container">
+                  <tr>
+                    <td>
+                      <p class="disclaimer__subtext">If you have any questions, reply to this email or contact us at
+                        <a href="mailto:"></a>
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+
+          <img
+            src="//ghostgiver.com/cdn/shopifycloud/shopify/assets/themes_support/notifications/spacer-1a26dfd5c56b21ac888f9f1610ef81191b571603cb207c6c0f564148473cab3c.png"
+            class="spacer"
+            height="1" />
+
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
